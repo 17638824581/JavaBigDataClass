@@ -8,7 +8,6 @@
       <module fileurl="file://$PROJECT_DIR$/4ListModel/4ListModel.iml" filepath="$PROJECT_DIR$/4ListModel/4ListModel.iml" />
       <module fileurl="file://$PROJECT_DIR$/5LinkModel/5LinkModel.iml" filepath="$PROJECT_DIR$/5LinkModel/5LinkModel.iml" />
       <module fileurl="file://$PROJECT_DIR$/6StringModel/6StringModel.iml" filepath="$PROJECT_DIR$/6StringModel/6StringModel.iml" />
-      <module fileurl="file://$PROJECT_DIR$/7ApiModel/7ApiModel.iml" filepath="$PROJECT_DIR$/7ApiModel/7ApiModel.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/BigDataJavaCode.iml" filepath="$PROJECT_DIR$/.idea/BigDataJavaCode.iml" />
     </modules>
   </component>

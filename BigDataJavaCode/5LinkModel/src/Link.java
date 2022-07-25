@@ -30,6 +30,111 @@ public class Link {
         this.length ++;
     }
 
+    // 获取指定索引的元素值
+    public int get(int index){
+        if (this.length==0 || index >= this.length || index < 0){
+            return -10086;      // 代表错误
+        }else if(index == 0){
+            return this.root.data;
+        }else {
+            // 取对应的元素
+            Node n = this.root;     // 取头节点
+            for (int i = 0; i < index; i++) {
+                n = n.next;
+            }
+            return n.data;
+        }
+    }
+
+    /*
+    *  获取存储了指定元素的节点的索引
+    *   @prarm value: 要查找的元素值
+    *   @return : 节点的索引
+    * */
+    public int find(int value){
+        if(this.length == 0){
+            return -1;
+        }
+        // 找节点
+        int index = 0;
+        Node n = this.root;
+        // 遍历整个链表去找节点
+        do{
+            // 对比节点的值
+            if(n.data == value){
+                return index;
+            }
+
+            n = n.next;
+            index++;
+        }while (n != null);
+
+        return -1;
+    }
+
+    /*
+    *   删除存储了指定值的元素
+    *   @prarm value: 要删除的元素值
+    *   @return: 返回删除的结果，删除成功返回true，失败返回false
+    * */
+    public boolean remove(int value){
+        if (this.length==0){
+            return false;
+        }else if(this.root.data == value){      // 若要删除的是头节点
+            this.root = this.root.next;
+            this.length --;
+            return true;
+        }else{
+            Node node = this.root;
+            while (node.next != null){
+                // 如果要删除的节点是 当前节点的下一个节点
+                if (node.next.data == value){
+                    // 就让当前节点的写一个节点等于 下一个节点的下一个节点
+                    node.next = node.next.next;
+                    this.length --;
+                    return true;
+                }
+                node = node.next;
+            }
+
+            return false;
+        }
+    }
+
+    /*
+    *   将元素插入到指定索引位置
+    *
+    *   @prarm value: 要插入的数据值
+    *   @prarm index: 要插入到的索引位置
+    *   @return: 返回是否插入成功
+    *
+    * */
+    public boolean insert(int value, int index){
+        if(index<0 || index > this.length){
+            return false;
+        }else if(index == this.length){
+            add(value);
+            return true;
+        }else if(index == 0){
+            Node new_node = new Node(value);
+            new_node.next = this.root;
+            this.root = new_node;
+        }else{
+            // n 始终保存在 index 的前一个节点
+            Node n = this.root;
+            for (int i = 0; i < index-1; i++) {
+                n = n.next;
+            }
+            Node new_node = new Node(value);
+            // 将新节点插入到链表中
+            new_node.next = n.next;
+            n.next = new_node;
+        }
+
+        this.length++;
+        return true;
+    }
+
 
     @Override
     public String toString() {
@@ -52,7 +157,7 @@ public class Link {
             }
         }
 
-        slink += "]";
+        slink += "],length="+this.length;
 
         return slink;
     }

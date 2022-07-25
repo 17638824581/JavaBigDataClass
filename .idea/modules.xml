@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BigDataJavaCode/1ArrayModel/1ArrayModel.iml" filepath="$PROJECT_DIR$/BigDataJavaCode/1ArrayModel/1ArrayModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BigDataJavaCode/2MethodModel/2MethodModel.iml" filepath="$PROJECT_DIR$/BigDataJavaCode/2MethodModel/2MethodModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BigDataJavaCode/3OOPModel/3OOPModel.iml" filepath="$PROJECT_DIR$/BigDataJavaCode/3OOPModel/3OOPModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BigDataJavaCode/4ListModel/4ListModel.iml" filepath="$PROJECT_DIR$/BigDataJavaCode/4ListModel/4ListModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BigDataJavaCode/5LinkModel/5LinkModel.iml" filepath="$PROJECT_DIR$/BigDataJavaCode/5LinkModel/5LinkModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BigDataJavaCode/6StringModel/6StringModel.iml" filepath="$PROJECT_DIR$/BigDataJavaCode/6StringModel/6StringModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaBigDataClass.iml" filepath="$PROJECT_DIR$/.idea/JavaBigDataClass.iml" />
+    </modules>
+  </component>
+</project>
