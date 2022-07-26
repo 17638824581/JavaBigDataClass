@@ -1,4 +1,4 @@
-package com.xty.Test1;
+package com.xty.classAndObject;
 
 public class Grandpa {
     public String lastname = "张";

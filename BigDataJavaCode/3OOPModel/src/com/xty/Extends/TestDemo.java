@@ -1,4 +1,4 @@
-package com.xty.Test2;
+package com.xty.Extends;
 
 public class TestDemo {
     public static void main(String[] args) {

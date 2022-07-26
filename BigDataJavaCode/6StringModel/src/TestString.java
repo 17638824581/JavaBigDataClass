@@ -57,17 +57,18 @@ public class TestString {
 //        }
 //
 //
-//        // 8. String 的 charAt() 方法
+        // 8. String 的 charAt() 方法
 //        String s = "ABCDEF";
 //
-//        char c1 = s.charAt(1);
-//
-//        System.out.println(c1+0);
-
+//        // 遍历字符串
+//        for (int i = 5; i >= 0; i--) {
+//            char c = s.charAt(i);
+//            System.out.println(c);
+//        }
 
         // 9.compareToIgnoreCase()方法，忽略大小写比较两个字符串，若字符串内容一致，则返回 0
-        String s1 = "XTY";
-        String s2 = "xty";
+//        String s1 = "XTY";
+//        String s2 = "xty";
 
 //        System.out.println(s1.compareToIgnoreCase(s2));
 
@@ -79,10 +80,20 @@ public class TestString {
 //        System.out.println(s1);
 
         // 11. 字符串反转
+//        String s = "ABCDEF";
+//
+//        String new_s = "";
+//
+//        // 遍历字符串
+//        for (int i = 5; i >= 0; i--) {
+//            char c = s.charAt(i);
+//            new_s += c;
+//        }
+//
+//        System.out.println(new_s);
 
 
-
-
+        System.out.println("ABC"+"abc");
 
 
     }

@@ -1,4 +1,4 @@
-package com.xty.Test1;
+package com.xty.classAndObject;
 
 public class TestCat {
     public static void main(String[] args) {

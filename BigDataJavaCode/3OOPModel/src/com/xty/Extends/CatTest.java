@@ -1,7 +1,7 @@
-package com.xty.Test2;  // 声明当前类所在包中的位置
+package com.xty.Extends;  // 声明当前类所在包中的位置
 
 // 若要使用不同包中的类，需要导包
-import com.xty.Test1.*;     // 代表导入 Test1包中的所有内容
+import com.xty.classAndObject.*;     // 代表导入 Test1包中的所有内容
 
 public class CatTest {
     public static void main(String[] args) {
