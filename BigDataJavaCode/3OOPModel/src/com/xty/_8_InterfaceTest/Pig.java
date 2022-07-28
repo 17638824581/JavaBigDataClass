@@ -1,10 +1,12 @@
 package com.xty._8_InterfaceTest;
 
 /*
-*  猪类，继承了动物类，实现了 游泳接口
-*
-* */
-public class Pig extends Animal implements YouYong{
+ *  猪类，继承了动物类，实现了 游泳接口
+ *
+ * */
+public class Pig extends Animal implements YouYong {
+
+    public String PinZhong;
 
     public Pig() {
     }
