@@ -63,19 +63,32 @@ public class TestDog {
 //        // 很常用的例子
 //        System.out.println();
 
+        Animal a = new Cat();
+
+        System.out.println(a instanceof Animal);
+        System.out.println(a instanceof Cat);
+        System.out.println(a instanceof Object);
+//        System.out.println(a instanceof System);
+
+        System.out.println(a.getClass());
+
+        System.out.println(new StringBuilder("我爱你").reverse());
+
+//        System.out.println("1".equals());
+
     }
 
-//    /*
-//    *   喂食方法
-//    *
-//    * */
-//    public static void feed(Animal d, String food) {
-//        d.eat(food);
-//    }
+    /*
+     *   喂食方法
+     *
+     * */
+    public static void feed(Animal d, String food) {
+        d.eat(food);
+    }
 
     // 写一个方法去接收任何类型的对象
-//    public static void method(Object o){
-//        System.out.println(o.getClass());
-//    }
+    public static void method(Object o) {
+        System.out.println(o.getClass());
+    }
 
 }

@@ -6,6 +6,10 @@ public class Test {
 
         System.out.println(s.getChineseScore());
 
+        Outer.Inner i = new Outer.Inner();
+
+        i.show();
+
 
     }
 }
