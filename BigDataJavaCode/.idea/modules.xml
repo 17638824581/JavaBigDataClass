@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/6StringModel/6StringModel.iml" filepath="$PROJECT_DIR$/6StringModel/6StringModel.iml" />
       <module fileurl="file://$PROJECT_DIR$/7ArrayListModel/7ArrayListModel.iml" filepath="$PROJECT_DIR$/7ArrayListModel/7ArrayListModel.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/BigDataJavaCode.iml" filepath="$PROJECT_DIR$/.idea/BigDataJavaCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_8APIModel/_8APIModel.iml" filepath="$PROJECT_DIR$/_8APIModel/_8APIModel.iml" />
     </modules>
   </component>
 </project>
