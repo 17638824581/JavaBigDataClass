@@ -41,6 +41,51 @@ public class DateTest {
 //
 //        System.out.println(d);
 
+//        Date date = new Date();
+//
+//        String s = DateUtils.dateToString(date, "yyyy年MM月dd日 a hh点mm分ss秒SS毫秒");
+//
+//        System.out.println(s);
+//
+//
+//        String t = "1888年10月23日 10:02:35";
+//
+//        Date d = DateUtils.stringToDate(t, "yyyy年MM月dd日 HH:mm:ss");
+//
+//        System.out.println(d);
+
+//        Date date = new Date();
+//        date.setTime(0l);
+//
+//        Calendar old_time = Calendar.getInstance();
+//        old_time.setTime(date);
+//
+//
+//        Calendar new_time  = Calendar.getInstance();
+//
+//
+//        int i1 = old_time.compareTo(new_time);
+//        int i2 = new_time.compareTo(old_time);
+//        int i3 = new_time.compareTo(new_time);
+//
+//        System.out.println(i1);
+//        System.out.println(i2);
+//        System.out.println(i3);
+//
+//        System.out.println(new_time.getFirstDayOfWeek());
+
+//        String[] availableIDs = TimeZone.getAvailableIDs();
+//
+//        for (String i : availableIDs) {
+//            System.out.println(i);
+//        }
+//
+//        TimeZone timeZone = TimeZone.getTimeZone("Etc/UTC");
+//        Calendar instance = Calendar.getInstance(timeZone);
+//        instance.setTime(new Date(0l));
+//        System.out.println(instance);
+
 
     }
+
 }

@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/7ArrayListModel/7ArrayListModel.iml" filepath="$PROJECT_DIR$/7ArrayListModel/7ArrayListModel.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/BigDataJavaCode.iml" filepath="$PROJECT_DIR$/.idea/BigDataJavaCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/_8APIModel/_8APIModel.iml" filepath="$PROJECT_DIR$/_8APIModel/_8APIModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_9ErrorAndException/_9ErrorAndException.iml" filepath="$PROJECT_DIR$/_9ErrorAndException/_9ErrorAndException.iml" />
     </modules>
   </component>
 </project>
