@@ -9,6 +9,8 @@ import java.text.ParseException;
 public class DateTest {
     public static void main(String[] args) throws ParseException {
 
+        DateUtils.stringToDate("", "123123");
+
         // 如果通过无参构造Date对象，它会将当前时间作为对象的时间值
 //        Date date = new Date();
 

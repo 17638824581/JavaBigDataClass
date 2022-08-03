@@ -40,6 +40,7 @@ public class DateUtils {
         //1.创建指定格式的SimpleDateFormat对象
         SimpleDateFormat sdf = new SimpleDateFormat(format);
         //2.使用这个对象的parse()方法，将字符串转为Date对象
+
         Date d = sdf.parse(time);
         //3.返回这个Date对象
         return d;
